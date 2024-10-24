@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-st.title("Determine a company's NAICS Code")
+st.title("Determine a company's NAICS code")
 
 company_url = st.text_input("Enter company's URL here:")
 
