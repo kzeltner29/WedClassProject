@@ -12,7 +12,7 @@ if company_url:
         
         # Display a loading message
         with st.spinner("NAICS code loading..."):
-            time.sleep(2)  # Simulate a loading process (e.g., fetching NAICS code)
+            time.sleep(4)  # Simulate a loading process (e.g., fetching NAICS code)
         
         st.success("NAICS code determined!")
     else:
