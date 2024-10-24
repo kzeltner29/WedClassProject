@@ -1,9 +1,9 @@
 import streamlit as st
 import time
 
-st.title("Find your NAICS Code")
+st.title("Determine a company's NAICS Code")
 
-company_url = st.text_input("Enter your company's URL here:")
+company_url = st.text_input("Enter company's URL here:")
 
 # Validate the URL
 if company_url:
@@ -14,6 +14,6 @@ if company_url:
         with st.spinner("NAICS code loading..."):
             time.sleep(2)  # Simulate a loading process (e.g., fetching NAICS code)
         
-        st.success("NAICS code loaded!")
+        st.success("NAICS code determined!")
     else:
         st.error("Please enter a valid URL starting with http:// or https://")
